@@ -1,0 +1,13 @@
+@BachsLab_HostAddress = http://localhost:5220
+
+GET {{BachsLab_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+GET {{BachsLab_HostAddress}}/checkout
+
+###
+POST {{BachsLab_HostAddress}}/checkout
+
+###
+GET {{BachsLab_HostAddress}}/check
